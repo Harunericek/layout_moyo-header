@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,4 +9,32 @@ body {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: 'wdth' 100;
+}
+
+header {
+  display: flex;
+  margin: 0;
+  justify-content: space-around;
+  border: solid 1px black;
+  align-items: center;
+  height: 60px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  height: 40;
 }
